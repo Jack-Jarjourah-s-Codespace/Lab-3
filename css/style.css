@@ -5,17 +5,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 
 #content {
-  width: 80%;
-  padding: 10%;
+  width: 95%;
+  padding: 1%;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 form {
   background-color: #d6d6d6;
+  color: #1d1d1d;
   padding: 5%;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 10px 10px 10px 10px rgba(5, 5, 5, 0.253);
   display:flex;
@@ -37,12 +41,17 @@ form p {
   margin-bottom: 2%;
 }
 
-input[type="email"] {
+
+#email {
   width: 90%;
   padding: 10px;
   border-radius: 2%;
   margin-bottom: 2%;
 }
-
-input[type="input-age-verification"] {
+#input-age-verification{
+  display:flex;
+  flex-direction: row;
+}
+#input-age-verification input[type="checkbox"] {
+  margin-right: 10px;
 }
